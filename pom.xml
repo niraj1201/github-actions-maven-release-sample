@@ -58,18 +58,6 @@
 						</goals>
 					</execution>
 				</executions>
-				<configuration>
-					<from>
-						<image>qcastel/docker-alpine-with-bash:0.3</image>
-					</from>
-					<to>
-						<image>registry.hub.docker.com/qcastel/github-actions-maven-release-sample</image>
-						<tags>
-							<tag>${project.version}</tag>
-							<tag>latest</tag>
-						</tags>
-					</to>
-				</configuration>
 			</plugin>
 
 			<plugin>
