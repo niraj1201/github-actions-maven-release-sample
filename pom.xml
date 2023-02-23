@@ -58,6 +58,18 @@
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<from>
+						<image>qcastel/docker-alpine-with-bash:0.3</image>
+					</from>
+					<to>
+						<image>registry.hub.docker.com/qcastel/github-actions-maven-release-sample</image>
+						<tags>
+							<tag>${project.version}</tag>
+							<tag>latest</tag>
+						</tags>
+					</to>
+				</configuration>
 			</plugin>
 
 			<plugin>
@@ -80,7 +92,7 @@
      <repository>
       <id>github</id>
       <name>GitHub OWNER Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/niraj1201/sample-repo</url>
+      <url>https://maven.pkg.github.com/niraj1201/demo</url>
      </repository>
     </distributionManagement>
 
