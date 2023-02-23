@@ -19,7 +19,7 @@ jobs:
           maven-args: "clean install -Ddockerfile.skip -DdockerCompose.skip -Djib.skip"
 
       - name: Release
-        uses: niraj1201/github-actions-maven-release@master
+        uses: niraj1201/github-actions-maven-release-sample@master
         env:
           JAVA_HOME: /usr/lib/jvm/java-11-openjdk/
         with:
